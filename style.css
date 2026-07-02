@@ -2,6 +2,8 @@
 
 body {
     font-family: Roboto, serif;
+    margin: 0;
+    padding: 0;
 }
 
 .hero {
@@ -61,16 +63,40 @@ a {
     justify-content: space-between;
 }
 
-.content {
-    display: flex;
-    flex-grow: 1;
-}
-
 .placeholder {
     background-color: grey;
 }
 
-.text {
+.hero {
+    padding: 20px 200px 100px;
+}
+
+.header {
+    margin-bottom: 100px;
+}
+
+.content {
     display: flex;
-    flex-direction: column;
+}
+
+.text,
+.placeholder {
+    flex: 1;
+}
+
+.placeholder {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+button {
+    color: white;
+    border: none;
+    padding: 8px 25px;
+    margin-top: 10px;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: 900;
 }
