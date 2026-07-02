@@ -37,6 +37,8 @@ button,
     font-size: 36px;
     color: #1F2937;
     font-weight: 900;
+    text-align: center;
+    margin: 50px 0;
 }
 
 .quote {
@@ -63,10 +65,6 @@ a {
     justify-content: space-between;
 }
 
-.placeholder {
-    background-color: grey;
-}
-
 .hero {
     padding: 20px 200px 100px;
 }
@@ -89,6 +87,7 @@ a {
     align-items: center;
     justify-content: center;
     color: white;
+    background-color: grey;
 }
 
 button {
@@ -99,4 +98,31 @@ button {
     border-radius: 5px;
     font-size: 15px;
     font-weight: 900;
+}
+
+.square {
+    width: 150px;
+    height: 150px;
+    border: 4px solid #3882F6;
+    border-radius: 10px;
+}
+
+.container-info {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 100px;
+}
+
+.info {
+    text-align: center;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+
+.text-info {
+    font-size: 18px;
 }
