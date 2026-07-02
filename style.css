@@ -45,7 +45,6 @@ button,
     background-color: #E5E7EB;
     font-size: 36px;
     color: #1F2937;
-    font-weight: 300;
 }
 
 ul {
@@ -125,4 +124,21 @@ button {
 
 .text-info {
     font-size: 18px;
+}
+
+.quote-text,
+.quoted-by {
+    padding: 0 200px;
+}
+
+.quoted-by {
+    padding-bottom: 100px;
+    text-align: right;
+    font-weight: bold;
+}
+
+.quote-text {
+    padding-top: 100px;
+    font-style: italic;
+    font-weight: 0;
 }
